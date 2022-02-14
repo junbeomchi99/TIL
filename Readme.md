@@ -10,4 +10,4 @@ Notes on my daily learning (개발 공부 기록용)
 
 
 # Python Basics (파이썬 기초)
-- ### [Shallow copy vs Deep copy](link)
+- ### [Shallow copy vs Deep copy](https://github.com/junbeomchi99/TIL/blob/main/Shallow%20copy%20vs%20Deep%20copy.md)
