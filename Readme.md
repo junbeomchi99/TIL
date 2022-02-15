@@ -15,4 +15,4 @@ Notes on my daily learning (개발 공부 기록용)
 # Data Science
 
 # Stats / Maths
-
+- ### [Eigenvector and Eigenvalue (to be continued...)](https://github.com/junbeomchi99/TIL/blob/main/Eigenvalue%20and%20eigenvector.md)
