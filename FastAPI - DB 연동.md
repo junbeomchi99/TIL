@@ -30,6 +30,16 @@
 
 ## 필수 설치 요소
 ```python
+pip3 install fastapi
+# FastAPI 사용을 위한 설치
+
+pip3 install uvicorn
+# 파이썬 서버실행기인 uvicorn 설치
+# 순수 파이썬으로 작성된 uvicorn이 설치된다
+
+pip3 install 'uvicorn[standard]'
+# Python과 C / C++ 로 작성된 uvicorn이 설치된다
+
 pip3 install sqlalchemy
 # ORM을 통하여 DB 쿼리문을 작성하기 위해 설치
 
@@ -67,7 +77,7 @@ pip3 install python-dotenv
 - core = core의 config.py에 DB URL를 반환하는 클래스가 포함되어 있음
 - crud = ORM 형식으로 DB 쿼리문이 작성된 파일들의 모여있는 폴더
 - db = __DB 연결, DB 세션 관리, 모델들을 정의__ 한 폴더
-- routes = URL 경로에 따라 api 함수들을 나누어주는 역확
+- routes = URL 경로에 따라 api 함수들을 나누어주는 역활
 - main.py = __FastAPI를 실행__ 하고 routes폴더들의 다른 라우트들을 불러와 포함시키는 역활
 - __init__.py = __해당 폴더가 패키지의 일부라는 것을 나타낸다__. 해당 파일에 작성 되어야 할 내용은 없음. (Python 3.3 버전 이후에는 해당 파일이 존재하지 않아도 패키지 일부로 인식할수 있지만 하위 번전은 Python과 호환을 위해 만들어주는것 권장)
 
